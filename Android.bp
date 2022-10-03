@@ -71,6 +71,8 @@ cc_defaults {
         "-DWITH_ANDROID",
         "-DHAVE_MEMRCHR",
         "-DHAVE_SYS_IOCTL_H",
+        "-DHAVE_LLISTXATTR",
+        "-DHAVE_LGETXATTR",
     ],
 }
 
